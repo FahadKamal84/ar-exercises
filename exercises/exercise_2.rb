@@ -5,3 +5,8 @@ puts "Exercise 2"
 puts "----------"
 
 # Your code goes here ...
+@store1 = Store.first
+@store2 = Store.second
+@store1.update(name: "Burnabyone")
+
+puts @store1.inspect
